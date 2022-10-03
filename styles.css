@@ -1,0 +1,80 @@
+:root {
+    --white: #fafafb;
+    --purple:#3e0599;
+    --blue-light:#07746a;
+    --blue-dark:#1a80ec;
+    --green: #88c0cf;
+}
+
+body {
+background: linear-gradient(to bottom, var(--purple) , var(--blue-light));
+height: 100vh;
+font-family: 'Prompt', sans-serif;
+}
+
+
+#app{
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    padding: 20px;
+}
+
+
+#time{
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+#time #value{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 300px;
+}
+button,
+input[type="submit"]{
+    border: none;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.task {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.task .com´ñeted {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.done{
+    display: inline-block;
+    padding: 5px;
+    background-color: #ccc;
+}
