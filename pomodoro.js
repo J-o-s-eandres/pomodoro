@@ -61,7 +61,7 @@ function renderTasks() { //tomar los elementos de las tareas y generar el html q
 }
 
 function startButtonHandler(id) { //calcularemos los 25 minutos de la actividad principal
-  time = 5;
+  time = 25 * 60;//time study
   current = id;
   const taskId = tasks.findIndex((task) => task.id === id);
   document.querySelector("#time #taskName").textContent = tasks[taskId].title;
@@ -88,7 +88,7 @@ function markComplete(id) {
 }
 
 function startBreak() {
-  time = 3;
+  time = 5*60;//time break
   document.querySelector("#time #taskName").textContent = "Break";
   renderTime();
   timerBreak = setInterval(timerBreakHandler, 1000);
