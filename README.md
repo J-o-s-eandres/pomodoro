@@ -38,3 +38,10 @@ time = 25 * 60;
 
 // Set the break duration in seconds (default is 5 minutes)
 time = 5 * 60;
+```
+
+## Contact 
+
+If you have any questions or suggestions, please don't hesitate to get in touch with the developer:
+- 👋 Joseandres Montesino
+- 📫 How to reach me **joseandresmontesino@gmail.com**
