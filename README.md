@@ -40,6 +40,10 @@ time = 25 * 60;
 time = 5 * 60;
 ```
 
+## App View
+<img width="861" alt="Captura de pantalla 2023-10-23 165007" src="https://github.com/J-o-s-eandres/pomodoro/assets/79519685/e8a7a150-9a9c-4167-bd19-9087279cf561">
+
+## Link App
 [Link_app](https://j-o-s-eandres.github.io/pomodoro/)
 
 ## Contact 
